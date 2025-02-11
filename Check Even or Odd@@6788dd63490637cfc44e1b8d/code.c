@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main(){
-    int a;
+    int a,b;
     scanf("%d",&a);
-    if (a/2==0){
+    b=a/2;
+    if (b/2==0){
         printf("Odd");
     }
     else{
