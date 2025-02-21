@@ -1,0 +1,13 @@
+#include <stdio.h>
+void main(){
+    int x;
+    scanf("%d",&x);
+    if (x%5==0){
+        if (x%11==0){
+            printf("Divisible");
+        }
+    }
+    else{
+        printf("Not Divisible");
+    }
+}
